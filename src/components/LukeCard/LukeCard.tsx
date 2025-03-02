@@ -8,7 +8,7 @@ export default function LukeCard() {
   const [eyeColor, setEyeColor] = useState("");
 
   useEffect(() => {
-    const url = "https://swapi.dev/api/people/4";
+    const url = "https://swapi.dev/api/people/1";
     let ignore = false;
 
     const fetchData = async () => {
