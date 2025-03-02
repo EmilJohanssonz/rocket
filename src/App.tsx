@@ -3,6 +3,7 @@ import RandomDog from "./components/Dog/Dog";
 import LukeCard from "./components/LukeCard/LukeCard";
 import PokemonCard from "./components/pokemon/pokemon";
 import SwCharacterCard from "./components/SWCharacterCard/SWCharacterCard";
+import Planet from "./components/SWplanet/planet";
 import StarShip from "./components/SWstarship/starship";
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
       <SwCharacterCard characterID={5} />
       <PokemonCard pokemonId={1} />
       <StarShip starshipID={10} />
+      <Planet planetID={3}/>
       <RandomDog />
     </>
   );
